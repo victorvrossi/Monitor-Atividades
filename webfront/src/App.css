@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.Contexto {
+  position: unset;
+  margin-left: 220px;
+  flex: 1;
+}
+
+.Contexto ul {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+  list-style: none;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.Contexto ul li {
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+li.ativideItem {
+  flex-direction: row;
+  align-items: center;
+}
+
+li.ativideItem:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+
+li.ativideItem:active {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+li header{
+  color: black;
+  font-weight: bold;
+  font-size: 2ex;  
+}
+
+
+.titleProjeto_brown{
+  color: brown;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.titleProjeto_violet{
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media (max-width: 750px) {
+  .Contexto {
+    margin-left: 120px;
+  }
+  
+  .Contexto ul {
+    display: inline;
+  }
+  .Contexto ul li {
+    margin-bottom: 10px;
+    
+  }
+}

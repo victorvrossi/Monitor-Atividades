@@ -1,0 +1,78 @@
+.MenuLateral{
+    height: 100%;
+    width: 220px;
+    position: absolute;
+    background-color: #3e93de;
+    flex: 1;    
+  }
+
+.MenuLateral .menuLateralListaItem {
+    position: static;
+    background-color: #3e93de;
+    display: grid;
+    grid-template-columns: 1.8fr 0.2fr;    
+    margin: 5px;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+.MenuLateral .menuLateralItens .sublist:hover{
+    background-color: #1f6f9f;
+}
+
+.MenuLateral .menuLateralItens header{
+    color: white;
+    font-size: 1.2rem;
+    background-color: teal;
+}
+.MenuLateral .menuLateralItens .pointMenuLateral{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.MenuLateral img {
+    width: 90px;
+    height: 90px;
+}
+
+.menuLateralItens {
+    flex: 1;
+}
+
+.menuLateralItens ul {
+    display: list-item;
+    list-style: none;    
+    margin-top: 15px;
+}
+.menuLateralItens ul li {
+    text-align: left;
+}
+
+
+
+li.menuLateralListaItem {
+    padding: 8px;
+    margin: 0px 5px 8px 6px;
+    display: flex;
+    flex-direction: column;
+}
+li.menuLateralListaItem img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.menuLateralListaItem .tittleItemMenuLateral{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+
+@media (max-width: 450px){
+    .MenuLateral {
+      width: 120px;
+    }
+  }
