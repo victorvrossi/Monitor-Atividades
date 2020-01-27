@@ -4,8 +4,10 @@ import './top.css'
 function TopBarMenu() {
     return (
         <div className="topBar">
-            Sub OK
-      </div>
+            <div className="topContext">
+                <a href="/">Ver manual..</a>
+            </div>
+        </div>
     )
 }
 

@@ -9,12 +9,33 @@
 .MenuLateral .menuLateralListaItem {
     position: static;
     background-color: #3e93de;
-    display: grid;
-    grid-template-columns: 1.8fr 0.2fr;    
+      
     margin: 5px;
     margin-top: 20px;
-    align-items: flex-end;
+    
 }
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.8fr 0.2fr;    
+    grid-template-areas: "sublist_title sublist_icon" "sublist sublist" ;
+  }
+  
+  .sublist_title { grid-area: sublist_title; }
+  
+  .sublist_icon { grid-area: sublist_icon; }
+  
+  .sublist { 
+      grid-area: sublist; 
+}
+
+
+
+
+
+
 .MenuLateral .menuLateralItens .sublist:hover{
     background-color: #1f6f9f;
 }

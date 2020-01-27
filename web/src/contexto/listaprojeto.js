@@ -1,4 +1,5 @@
 import React from 'react';
+import './listaprojeto.css';
 
 function ListaDeProjetos() {
     return (

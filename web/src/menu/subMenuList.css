@@ -2,11 +2,12 @@
     background-color: #5e9fff;
     color: lightgreen;
 }
+
 .subMenuLateral li:hover a {
     color: lightgreen;
-    
 }
-.subMenuLateral{
+
+.subMenuLateral {
     background: #fff;
     box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
     border-radius: 6px;
@@ -16,15 +17,16 @@
     flex-direction: column;
     align-items: center;
 }
+
 .subMenuLateral li {
     text-align: left;
     margin-bottom: 3px;
     padding: 4px;
     border-radius: 3px;
 }
-.subMenuLateral a{
+
+.subMenuLateral a {
     color: #8e4dff;
     font-size: 16px;
-    text-decoration: none;    
-    
+    text-decoration: none;
 }
