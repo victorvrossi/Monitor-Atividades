@@ -4,7 +4,7 @@ import './listaprojeto.css';
 function ListaDeProjetos() {
     return (
         <div className="Contexto">
-            <ul>
+            <ul className="unselectable">
                 <li className="ativideItem">
                     <header>Configurar SLA</header>
                     <div className="titleProjeto_brown">Projeto 1</div>
