@@ -1,11 +1,14 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const routes = require('./routes');
+
+require('../database');
+
+const app = express();
  
 app.use(express.json());
 
-app.use('/', (request,response) => {
-    response.json({home:'Start do projeto do Monitor de Atividades'});
-});
+app.use(routes);
+
 
 app.listen(8080);
 
