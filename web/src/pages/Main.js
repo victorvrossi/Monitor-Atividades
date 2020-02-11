@@ -4,14 +4,14 @@ import TopBarMenu from './../menu/top';
 import LateralBarMenu from './../menu/lateral';
 import ListaDeProjetos from './../contexto/listaprojeto';
 
-function App() {
+function Main() {
   return (
-    <div className="App">
-      <LateralBarMenu />
+    <div className="Main">
       <TopBarMenu />
+      <LateralBarMenu/>
       <ListaDeProjetos />
     </div>
   );
 }
 
-export default App;
+export default Main;

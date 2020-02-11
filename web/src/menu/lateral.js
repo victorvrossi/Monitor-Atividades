@@ -12,7 +12,7 @@ function LateralBarMenu() {
     { linha: <SubMenuListItem key="2" link="#" title="Remover monitor" /> },
   ];
   const listaItemGerenciarProjeto = [
-    { linha: <SubMenuListItem key="0" link="#" title="Adicionar projeto" /> },
+    { linha: <SubMenuListItem key="0" link="/projeto/novo" title="Adicionar projeto" /> },
   ];
 
   return (
